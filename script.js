@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
 
     // ⭐ DELL Google Apps Script로 백그라운드 전송
-    fetch("https://script.google.com/macros/s/AKfycbwZOa2wlN4aL6JQP96SnOFqEdYSzqCMX1wMydUM2UtFLVILOJd07UtDwP2a4O-fMRdIew/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyq7T_AX_mCAEimmoJ6a3V97eNy3Isk7Yidehs91ntS3dVrrJnGA-lpe2r18pwHI8WKMg/exec", {
       method: "POST",
       mode: "no-cors",   // ⛔ 절대 건들면 안 됨! (CORS 무력화)
       headers: {
